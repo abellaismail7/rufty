@@ -1,7 +1,7 @@
 use clap::App;
 
 fn main() {
-    let mut app = App::new("Rufty")
+    let app = App::new("Rufty")
         .version("1.0")
         .about("CLI for 42 intra api");
 
